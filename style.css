@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fasthand&family=Open+Sans:wght@400;600&display=swap');
+@import 'reset.css';
+@import 'variables.css';
+
+@import 'components/status-bar.css';
+@import 'components/screen-header.css';
+@import 'components/nav-bar.css';
+@import 'components/user-component.css';
+@import 'components/icon-row.css';
+@import 'components/alt-header.css';
+@import 'components/no-mobile.css';
+
+@import 'screen/login-form.css';
+@import 'screen/friends.css';
+@import 'screen/find.css';
+@import 'screen/more.css';
+@import 'screen/setting.css';
+@import 'screen/chat.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Dancing Script', cursive;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main-screen {
+  padding: 110px var(--horizontal-space) 0px;
+}

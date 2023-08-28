@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Assignment 12</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>LG</span>
+      <span>10:38</span>
+      <i class="fas fa-phone"></i>
+    </div>
+    <div class="status-bar__column">
+      <i class="fas fa-volume-low"></i>
+      <i class="fas fa-wifi"></i>
+      <i class="fas fa-signal"></i>
+      <span>100%</span>
+      <i class="fas fa-battery-full"></i>
+    </div>
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to Puppy Talk</h1>
+    <p class="welcome-header__text">
+      If you have Puppy Account, <br />login in your email or phone number.
+    </p>
+  </header>
+
+  <form action="friends.html" method="GET" class="login-form">
+    <input name="username" type="text" placeholder="Email or phone number" />
+    <input name="password" type="password" placeholder="Password" />
+    <input class="login-form__buttom" type="submit" value="Log In" />
+    <input class="login-form__buttom" type="submit" value="Sign Up" />
+    <a href="#">Find Puppy talk Account or Password</a>
+    <img src="https://i.pinimg.com/236x/e2/0b/de/e20bde62cce1607972e84510cf2d73e2.jpg" />
+  </form>
+
+  <div id="no-mobile">
+    <span>크기좀 줄여주세요!</span>
+  </div>
+
+</body>
+
+</html>

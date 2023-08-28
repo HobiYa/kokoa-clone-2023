@@ -1,0 +1,30 @@
+.icon-rows {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon-row {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 30px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.icon-row__icon i:hover {
+  cursor: pointer;
+  color: black;
+}

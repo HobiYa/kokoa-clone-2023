@@ -1,0 +1,152 @@
+.find-screen {
+  height: 1000px;
+}
+
+.find__bg {
+  position: fixed;
+  top: 100px;
+  padding: 0px var(--horizontal-space);
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+}
+
+.find {
+  background-color: #e9ecef;
+  padding: 10px 20px;
+}
+
+.find__column input {
+  border: none;
+  background-color: #e9ecef;
+  font-size: 16px;
+}
+
+.find-openchats {
+  display: flex;
+  overflow: hidden;
+}
+
+.find-openchat__room {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.find-openchat__room img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.find-openchat__room__title {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 20px;
+}
+
+.find-openchat__room__text {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.find-openchat__room__people {
+  font-size: 15px;
+}
+
+.find-openchats__header {
+  margin: 25px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.find-openchats__header-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.open-post__members {
+  display: flex;
+  align-content: center;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.open-post__photo img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 5px;
+}
+
+.open-post__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  padding: 6px;
+  border-radius: 10px;
+  right: 10px;
+  color: white;
+}
+
+.open-post__heart-count span {
+  margin-left: 5px;
+}
+
+.open-post__column {
+  margin: 15px 0px;
+}
+
+.find-dot {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: tomato;
+  border-radius: 50%;
+  right: -3px;
+  top: -7px;
+}

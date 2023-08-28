@@ -1,0 +1,22 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.status-bar__column {
+  padding: 5px 10px;
+}
+
+.status-bar__column span {
+  font-size: 18px;
+  align-items: center;
+}
+
+.status-bar__column i,
+.status-bar__column span {
+  padding: 0px 5px;
+}

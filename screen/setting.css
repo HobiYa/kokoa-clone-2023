@@ -1,0 +1,26 @@
+.settings-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.settings__setting {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+
+.settings__setting i {
+  color: gray;
+  margin-right: 10px;
+}
+
+.settings__setting i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.settings__setting__text i {
+  font-size: 18px;
+  color: tomato;
+  margin-left: 10px;
+}
